@@ -10,6 +10,10 @@ app.config['MYSQL_DB'] = 'railway'
 app.config['MYSQL_PORT'] = '6259'
  
 mysql = MySQL(app)
+@app.route('/')
+def home():
+    return 'Welcome to my first Python Page hosted in web'
+
  
 @app.route('/form')
 def form():
