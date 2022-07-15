@@ -7,6 +7,7 @@ app.config['MYSQL_HOST'] = 'containers-us-west-63.railway.app'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'EpDh7YzTphxYiB1tq4h1'
 app.config['MYSQL_DB'] = 'railway'
+app.config['MYSQL_PORT'] = '6259'
  
 mysql = MySQL(app)
  
