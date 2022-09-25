@@ -1,3 +1,4 @@
+flask==2.2.2
 numpy==1.22.3
 load-dotenv==0.1.0
 pymongo[srv]==3.11
@@ -5,7 +6,6 @@ sentence_transformers==2.2.0
 fastapi==0.75.2
 scikit_learn==1.0.2
 uvicorn==0.17.6
-flask==2.2.2
 mysql==0.0.3
 mysql-logger==0.0.1
 utils-flask-sqlalchemy==0.3.0
