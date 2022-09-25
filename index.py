@@ -32,5 +32,3 @@ def login():
         mysql.connection.commit()
         cursor.close()
         return f"Done!!"
- 
-app.run(host='0.0.0.0', port=5000)
