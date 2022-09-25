@@ -31,7 +31,7 @@ def login():
         name = request.form['name']
         age = request.form['age']
         cursor = mysql.connection.cursor()
-        cursor.execute("DROP TABLE IF EXISTS EMPLOYEE")
+        cursor.execute("DROP TABLE IF EXISTS info_table")
         sql = "CREATE TABLE info_table ( FNAME CHAR(20) NOT NULL, LNAME CHAR(20), AGE INT )"
         cursor.execute(sql)
         cursor.execute(''' INSERT INTO info_table VALUES(%s,%s)''',(name,age))
